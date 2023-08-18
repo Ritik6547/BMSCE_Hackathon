@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+  <!--========== BOX ICONS ==========-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <title>Complete Responsive Blog Website Design Tutorial</title>
+
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="css/news.css">
+
+</head>
+
+<body>
+
+  <!-- header section starts  -->
+
+
+  <header>
+    <!--========== HEADER ==========-->
+
+
+
+    <nav class="bg-dark dark:bg-gray-300 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="cover.html" class="flex items-center">
+          <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo">
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">SDGs</span>
+        </a>
+        <div class="flex md:order-2">
+          <button type="button"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Join
+            Us</button>
+          <button data-collapse-toggle="navbar-sticky" type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-sticky" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+          </button>
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+          <ul
+            class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+              <a href="/"
+                class="block py-2 pl-3 pr-4 text-dark bg-blue-700 rounded md:bg-transparent md:text-blue-500 md:p-0 md:dark:text-blue-200"
+                aria-current="page">Home</a>
+            </li>
+            <li>
+              <a href="#"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">17
+                Goals</a>
+            </li>
+            <li>
+              <a href="/action"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Take
+                Action</a>
+            </li>
+            <li>
+              <a href="/news"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">News</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  </header>
+
+  <!-- header section ends -->
+
+  <!-- banner section starts  -->
+
+  <section class="banner" id="banner">
+
+    <div class="content">
+      <h3>find the latest news here</h3>
+      <p>You will find all the resouces you require here.</p>
+      <a href="news.html" class="btn">Find More</a>
+    </div>
+
+  </section>
+
+  <!-- banner section ends -->
+
+  <!-- posts section starts  -->
+
+  <section class="container" id="posts">
+
+    <div class="posts-container">
+
+      <div class="post">
+        <img src="images/blog-1.jpg" alt="" class="image">
+        <div class="date">
+          <i class="far fa-clock"></i>
+          <span>19 July, 2023</span>
+        </div>
+        <h3 class="title">Imagine Winning</h3>
+        <p class="text">Since the United Nations (UN) was founded, over 75 years ago, our world has undergone tremendous
+          progress. Globalisation completely reshaped our economy, enabling unprecedented interconnectedness of markets,
+          exponential growth in international trade and the rise of multinational corporations.</p>
+        <p class="text">Technological advancements – especially in information technology and communications –
+          revolutionised industries, increasing productivity, efficiency, and global collaboration in the process.
+
+          However, this progress has come at a great cost for the planet and its benefits have been felt unevenly,
+          leaving many people behind. In 2015, world leaders agreed on a game plan to end poverty, reduce inequalities
+          and tackle climate change by 2030: the Global Goals. By signing up to these Goals, leaders recognised the need
+          to work collectively towards an equitable, prosperous and sustainable future, fit for generations to come.</p>
+        <div class="links">
+          <a href="https://www.globalgoals.org/news/imagine-winning-the-global-goals-at-halftime/" target="_blank"
+            class="user">
+            <i class="far fa-user"></i>
+            <span>by Global Goals</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="post">
+        <img src="images/blog-2.jpg" alt="" class="image">
+        <div class="date">
+          <i class="far fa-clock"></i>
+          <span>1st may, 2023</span>
+        </div>
+        <h3 class="title">THE PEOPLE’S PLANET</h3>
+        <p class="text">We all know that being outside, surrounding ourselves with nature, and taking in fresh air are
+          all good things for our minds and bodies. Access to green, open spaces is important for everyone, and
+          shouldn’t be for a privileged few. However, all over the planet, vast amounts of land are owned and controlled
+          by a very small number of people, which can have harmful effects on nature, climate and communities. This blog
+          will explore a few examples of the inequalities, and identify alternative models of land ownership – many of
+          which go back thousands of years. </p>
+        <p class="text">In many indigenous cultures, land is not something to be owned by individuals as private
+          property, but is a living, breathing being that we all have a collective right to enjoy and responsibility to
+          nurture. For thousands of years Indigenous Peoples have nurtured and cared for the earth as a source of life,
+          spirituality and joy, yet their voices and knowledge are often left out of the conversation around
+          conservation. </p>
+        <div class="links">
+          <a href="https://www.globalgoals.org/news/the-peoples-planet/" target="_blank" class="user">
+            <i class="far fa-user"></i>
+            <span>by Global Goals</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="post">
+        <img src="images/blog-3.jpg" alt="" class="image">
+        <div class="date">
+          <i class="far fa-clock"></i>
+          <span>8th March, 2023</span>
+        </div>
+        <h3 class="title">WOMEN’S POWER MEANS WORLD PROGRESS: INTERNATIONAL WOMEN’S DAY 2023</h3>
+        <p class="text">Gender equality is not about women and girls.
+
+          Well, it is. And it isn’t.
+
+          Under each of the Global Goals, there are specific indicators that measure progress toward achieving that
+          goal. For example, under Goal 5, Gender Equality there are fourteen indicators such as the ’proportion of
+          women in managerial positions and the ‘proportion of individuals who own a mobile telephone, by sex.’</p>
+        <p class="text">But gender equality is not confined to Goal 5.
+
+          Across all 17 of the Global Goals, there are 52 indicators related to women and girls.
+
+          That’s 52 reminders of the intersectional impact of gender equality.
+
+          That’s 52 reminders that gender equality means less poverty, more climate justice, better health, stronger
+          economies, and so much more.
+
+          That’s 52 reminders that women’s power means world progress.
+
+          When we break down the barriers and biases standing between women and girls and their full power, we leave no
+          one behind.</p>
+        <div class="links">
+          <a href="https://www.globalgoals.org/news/womens-power-means-world-progress-international-womens-day-2023/"
+            target="_blank" class="user">
+            <i class="far fa-user"></i>
+            <span>by Global Goals</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="sidebar">
+
+      <div class="box">
+        <h3 class="title">About Us</h3>
+        <div class="about">
+          <img src="images/user.png" alt="">
+          <h3>SDGs</h3>
+          <p>We are the set of commitments made by 193 world leaders, to end extreme poverty and make awareness about
+            the Sustainable Development Goals</p>
+          <div class="follow">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <h3 class="title">categories</h3>
+        <div class="category">
+          <a href="#"> No Poverty <span>2</span></a>
+          <a href="#"> Zero Hunger <span>5</span> </a>
+          <a href="#"> Health <span>2</span> </a>
+          <a href="#"> Quality Education <span>1</span> </a>
+          <a href="#"> Gender Equality <span>4</span> </a>
+          <a href="#"> Nature <span>3</span> </a>
+          <a href="#"> Climate Action <span>5</span> </a>
+          <a href="#"> Life below water <span>1</span> </a>
+          <a href="#">Clean water <span>2</span> </a>
+          <a href="#"> Economic growth <span>1</span> </a>
+        </div>
+      </div>
+
+      <div class="box">
+        <h3 class="title">popular posts</h3>
+        <div class="p-post">
+          <a href="#">
+            <h3>01. WOMEN’S POWER MEANS WORLD PROGRESS: INTERNATIONAL WOMEN’S DAY 2023</h3>
+            <span><i class="far fa-clock"></i>8th March, 2023</span>
+          </a>
+          <a href="#">
+            <h3>02. THE PEOPLE’S PLANET</h3>
+            <span><i class="far fa-clock"></i>1st may, 2023</span>
+          </a>
+          <a href="#">
+            <h3>03. Imagine Winning</h3>
+            <span><i class="far fa-clock"></i>19 July, 2023</span>
+        </div>
+      </div>
+
+      <div class="box">
+        <h3 class="title">popular tags</h3>
+        <div class="tags">
+          <a href="#">No Poverty</a>
+          <a href="#">Zero Hunger</a>
+          <a href="#">Health</a>
+          <a href="#">Education</a>
+          <a href="#">Equality</a>
+          <a href="#">Nature</a>
+          <a href="#">Climate</a>
+          <a href="#">Life below water</a>
+          <a href="#">Clean water</a>
+          <a href="#">Economic growth</a>
+          <a href="#">Clean Energy</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- posts section ends -->
+
+  <!-- contact section starts  -->
+
+  <section class="contact" id="contact">
+
+    <form action="">
+      <h3>Stay Updated By joining us</h3>
+      <div class="inputBox">
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email">
+      </div>
+      <div class="inputBox">
+        <input type="number" placeholder="number">
+        <input type="text" placeholder="subject">
+      </div>
+      <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
+      <input type="submit" value="send message" class="btn">
+    </form>
+
+  </section>
+
+  <!-- contact section ends -->
+
+  <!-- CONTENT2 -->
+  <section>
+    <div class="container1">
+
+      <h1 class="heading">Some Latest News</h1>
+
+      <div class="box-container1">
+
+        <div class="box">
+          <div class="image">
+            <img src="contentimages\85A9878-scaled.jpg" alt="">
+          </div>
+          <div class="content">
+            <h3>WORLD MAYORS GATHER IN BUENOS AIRES TO ANNOUNCE CREATION OF 50 MILLION GOOD GREEN JOBS BY 2030</h3>
+            <p>City leaders from around the world came together this month in Buenos Aires, Argentina for the C40 Cities
+              World Mayors Summit, the triennial gathering of the C40 network of Mayors committed to tackling climate
+              change through united global action. During the summit, Mayors of the world’s largest cities announced
+              policies to achieve goal 13: Climate Action and Goal 8: Decent Work and Economic Growth, through the
+              creation of 50 million good green jobs.</p>
+            <a href="https://www.globalgoals.org/news/world-mayors-gather-in-buenos-aires-to-announce-creation-of-50-million-good-green-jobs-by-2030/?entry=ttu"
+              target="_blank" class="btn">Read More</a>
+
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="contentimages\Global-Goals-Week.png" alt="">
+          </div>
+          <div class="content">
+            <h3>GET INVOLVED IN GLOBAL GOALS WEEK</h3>
+            <p>Next week the UN General Assembly begins and with it, Global Goals week. This year’s UNGA is taking place
+              in unprecedented times – countries still reeling from the effect of COVID-19, the climate crisis
+              threatening lives and livelihoods, and rising food, energy, and fuel prices worsening poverty and
+              inequality. This Global Goals week is about coming together- in partnership – to face those challenges
+              head-on and focus on the solutions and actions needed.</p>
+            <a href="https://www.globalgoals.org/news/get-ready-for-global-goals-week/" class="btn">Read More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="contentimages\image3.jpg" alt="">
+          </div>
+          <div class="content">
+            <h3>COP27 – WHAT YOU NEED TO KNOW</h3>
+            <p>This week marks the beginning of COP27, the annual UN Climate Change Conference. Over the next two weeks,
+              thousands of delegates – among them heads of state, business leaders, and civil representatives – will
+              gather in Sharm El-Sheikh, Egypt, to address some of the most pressing issues faced by our planet and
+              those on it.</p>
+            <a href="https://www.globalgoals.org/news/cop27-what-you-need-to-know/" target="_blank" class="btn">Read
+              More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="contentimages\image4.jpeg" alt="">
+          </div>
+          <div class="content">
+            <h3>TRANSFORMING EDUCATION: GIVING CHILDREN A VOICE</h3>
+            <p>We’re thrilled to announce that World’s Largest Lesson – an initiative led by Project Everyone and UNICEF
+              – today launches a global gamified survey inviting children and young people to share their views on the
+              current state of education and how it can be transformed to meet the needs of today’s school children.</p>
+            <a href="https://www.globalgoals.org/news/giving-children-a-voice/" target="_blank" class="btn">Read
+              More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="contentimages\image5.jpg" alt="">
+          </div>
+          <div class="content">
+            <h3>WE NEED MORE STEM HEROINES</h3>
+            <p>Today is the International Day of Women and Girls in Science. In many countries, the days of boys doing
+              science experiments in one classroom while girls learn to cook and sew in another are long gone, but
+              inequality in STEM (science, technology, maths, engineering) continues in other ways, as women in science
+              receive less funding, are underrepresented in some of the most cutting edge fields, and have shorter
+              careers.</p>
+            <a href="https://www.globalgoals.org/news/we-need-more-stem-heroines/" target="_blank" class="btn">Read
+              More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="contentimages\image6.jpg" alt="">
+          </div>
+          <div class="content">
+            <h3>25,000 STUDENT IDEAS TO TRANSFORM EDUCATION</h3>
+            <p>“It’s important to study the past, I know, but now we are living in the present and I want to know how to
+              live in this world.”
+
+              These are the words of a student who shared their views in the Transforming Education Survey. This article
+              shares key findings from two of the key architects behind the survey—Michelle Mann, director of Social
+              Impact at NetApp and Alison Bellwood, executive director of the World’s Largest Lesson. </p>
+            <a href="https://www.globalgoals.org/news/25000-student-ideas-to-transform-education/" target="_blank"
+              class="btn">Read More</a>
+          </div>
+        </div>
+
+
+      </div>
+  </section>
+
+  <!-- footer section starts  -->
+
+  <div class="bg-white pt-4 sm:pt-10 lg:pt-12">
+    <footer class="mx-auto max-w-screen-2xl px-4 md:px-8">
+      <div class="flex flex-col items-center justify-between gap-4 border-t border-b py-6 md:flex-row">
+        <!-- nav - start -->
+        <nav class="flex flex-wrap justify-center gap-x-4 gap-y-2 md:justify-start md:gap-6">
+          <a href="#"
+            class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">About</a>
+          <a href="#"
+            class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Investor
+            Relations</a>
+          <a href="#"
+            class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Jobs</a>
+          <a href="#"
+            class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Press</a>
+          <a href="#"
+            class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Blog</a>
+        </nav>
+        <!-- nav - end -->
+
+        <!-- social - start -->
+        <div class="flex gap-4">
+          <a href="#" target="_blank"
+            class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+            <svg class="h-5 w-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+            </svg>
+          </a>
+
+          <a href="#" target="_blank"
+            class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+            <svg class="h-5 w-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+            </svg>
+          </a>
+
+          <a href="#" target="_blank"
+            class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+            <svg class="h-5 w-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+            </svg>
+          </a>
+
+          <a href="#" target="_blank"
+            class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+            <svg class="h-5 w-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+            </svg>
+          </a>
+        </div>
+        <!-- social - end -->
+      </div>
+
+      <div class="py-8 text-center text-sm text-gray-400">© 2021 - Present Flowrift. All rights reserved.</div>
+    </footer>
+  </div>
+
+  <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- custom js file link  -->
+  <script src="js/news.js"></script>
+
+</body>
+
+</html>
